@@ -1,0 +1,74 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+.wrapper{
+	width:95%; 
+	margin: auto;
+}
+.header{
+	background: #f2fcf9;
+}
+.footer{
+	position: absolute; 
+	bottom: 0; 
+	background: #111; 
+	color:#999;
+	width: 100%; 
+	text-align: center; 
+	color: gray; 
+	padding: 10px 0;
+}
+.content{
+	margin: 80px 0;
+}
+.login{
+	width: 400px; 
+	margin: auto; 
+	background: #f2f7f5; 
+	border-radius: 5px;
+}
+.login-header{
+	text-align: center; 
+	color: gray;
+}
+.login-header .logo{
+	margin-top: -50px; 
+	margin-bottom: 10px;
+}
+.login-content{
+	padding: 10px; 
+	margin-top: 10px; 
+	text-align: center;
+}
+.login-content input{
+	width: 300px; 
+	margin: 10px 0; 
+	height: 30px; 
+	padding: 5px; 
+	border: 1px solid #ededef; 
+	border-radius: 3px;
+}
+.login-content [type=submit]{
+	background: #63b297; 
+	height: 40px; 
+	width: 310px; 
+	color: #fff; 
+	font-weight: bold;
+}
+.login-footer{
+	text-align: center; 
+	padding: 10px;
+}
+.login-footer a{
+	text-decoration: none; 
+	color: gray;
+}
+.warning{
+	text-align: center; 
+	color: #fff; 
+	margin-top: 10px; 
+	background: rgb(247, 35, 2, 0.5);
+	padding: 5px 0;
+	border-radius: 3px;
+}

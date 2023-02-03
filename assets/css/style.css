@@ -1,0 +1,79 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+.wrapper{
+	width:95%; 
+	margin: auto;
+}
+.header{
+	background: #f2fcf9;
+}
+.footer{
+	position: absolute; 
+	bottom: 0; 
+	background: #111; 
+	color:#999;
+	width: 100%; 
+	text-align: center; 
+	color: gray; 
+	padding: 10px 0;
+}
+.content{
+	margin-top: 10px;
+}
+nav .line{
+	background: #63b297; 
+	height: 5px;
+}
+nav .menu{
+	float: right; 
+	background: #63b297; 
+	padding: 0 10px 7px 10px; 
+	border-radius: 0 0 5px 5px; 
+	width: 200px; 
+	text-align: center;
+}
+nav .menu a{
+	text-decoration: none; 
+	color: #fff;
+}
+nav .menu a:hover{
+	font-weight: bold;
+}
+hr {
+	border-color: #ededef; 
+	margin-top: 10px;
+}
+/*register style*/
+.register{
+	width: 50%; 
+	margin: auto; 
+	border: 1px solid #ededef; 
+	border-radius: 5px;
+}
+.register .header{
+	background: #63b297; 
+	padding:10px; 
+	color: #fff; 
+	border-radius: 5px 5px 0 0;
+}
+.reg-content{
+	padding:10px; 
+	text-align: center; 
+	color: gray;
+}
+.reg-content input{
+	width: 90%; 
+	margin-top: 10px; 
+	height: 30px; 
+	padding: 5px; 
+	border-radius: 3px; 
+	border: 1px solid #ededef; 
+	font-size: 14px;
+}
+.reg-content [type=submit]{
+	background: #63b297; 
+	color: #fff; 
+	font-weight: bold;
+}

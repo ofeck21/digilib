@@ -1,0 +1,67 @@
+*{
+	padding: 0; 
+	margin: 0; 
+	font-family: "tahoma"
+}
+.container{
+	width: 95%; 
+	margin: auto;
+}
+.line-top{
+	background: #63b297; 
+	height: 5px; 
+	width: 100%;
+}
+.login-anggota{
+	float: right; 
+	background: #63b297; 
+	padding: 5px; 
+	border-radius: 0 0 3px 3px; 
+	width: 200px; 
+	text-align: center;
+}
+.login-anggota a{
+	text-decoration: none; 
+	color: #fff;
+}
+.content{
+	text-align: center; 
+	padding-top: 50px;
+}
+.footer{
+	position: absolute; 
+	bottom: 0; 
+	background: #e0e5e2; 
+	width: 100%; 
+	text-align: center; 
+	color: gray; 
+	padding: 10px 0;
+}
+.content [type=text]{
+	width: 500px; 
+	height: 35px; 
+	padding: 5px; 
+	border: 1px solid #ededef; 
+	border-radius: 3px;
+}
+.content [type=submit]{
+	width: 100px; 
+	height: 48px; 
+	border-radius: 3px; 
+	border: none; 
+	font-weight: bold; 
+	color: gray;
+}
+.form{
+	margin-top: 30px;
+}
+.lebih-lanjut{
+	margin-top: 50px;
+}
+.lebih-lanjut a{
+	text-decoration: none; 
+	background: #ededef; 
+	color: gray; 
+	padding: 10px; 
+	border-radius: 3px;
+}
